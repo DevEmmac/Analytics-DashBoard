@@ -1,0 +1,421 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Plus+Jakarta+Sans:wght@300&display=swap');
+body {
+    background: #dae3f5;
+}
+
+.main-container {
+    display: flex;
+    width: 85%;
+    margin: 1rem auto;
+    background: #FFFFFF;
+}
+
+.dashboard-icon {
+    width: 4.5rem;
+    height: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.first-set {
+    margin-top: 1rem;
+}
+
+.first-set > img, .second-set > img {
+    width: 2.1rem;
+    height: 2.1rem;
+    margin: 0.3rem 1rem;
+    
+}
+
+.dashboard-container {
+    width: 93%;
+}
+
+.header {
+    border: 1px solid #dae3f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4rem;
+    width: 98%;
+    margin-top: 1rem;
+}
+
+label{
+    font-size: 1.5rem;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    line-height: 1.2rem;
+    margin: auto 0;
+    padding-left: 0.5rem;
+}
+
+
+.search-box {
+    /* border: 1px solid black; */
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+
+.search-icon {
+    margin: auto;
+ }
+ 
+ .search {
+    position: absolute;
+    margin: 0.55rem 0.8rem;
+    width: 1.1rem;
+    height: 1.1rem;
+ }
+
+.date-box {
+    display: flex;
+}
+
+input {
+    border-radius: 5rem;
+    width: 15rem;
+    height: 2rem;
+    margin: auto;
+    border: 1px solid #dae3f5;
+    padding-left: 2.4rem;
+    
+}
+
+.date-box {
+    /* border: 1px solid red; */
+    width: 33%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 0.6rem;
+}
+
+p {
+    margin: auto 0;
+}
+
+
+.bell-circle {
+     margin: auto 0 auto 1rem;
+ }
+ 
+.bell {
+    width: 1.3rem;
+    height: 1.3rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    border: 1px solid #dae3f5;
+}
+ 
+.user-notify {
+    border: 1px solid #dae3f5;
+    border-radius: 7rem;
+    display: flex;
+    width: 25%;
+    height: 3rem;
+    margin: auto 0;
+}
+
+.user-image{
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 50%;
+    margin: auto 0.4rem;
+}
+
+.arrow-down, .calender {
+   width: 1.4rem;
+   height: 1.4rem;
+   margin: auto 0.4rem;
+}
+
+
+h4 {
+    text-align: center;
+    margin: auto;
+}
+
+
+.border-container {
+   /* border: 1px solid black; */
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.price-cont, .sales-container {
+    border: 1px solid #dae3f5;
+   width: 55%;
+   height: 23rem;
+   margin-top: 1rem;
+    background: #FFFFFF;
+    border-radius: 0.7rem;
+   
+}
+
+.platform-container, .lastorder-container {
+    border: 1px solid #dae3f5;
+   background: #FFFFFF;
+   width: 40%;
+   height: 23rem;
+   margin-top: 1rem;
+   border-radius: 0.7rem;
+   
+}
+
+.lastorder-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    font-size: 0.9rem;
+    border-color: transparent;
+}
+
+.total {
+    width: 47%;
+    height: 47%;
+    border: 1px solid #dae3f5;
+    border-radius: 0.8rem;
+}
+
+.total-icon {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.6rem 0.5rem
+ }
+
+ h2 {
+    font-size: 1rem;
+    padding-left: 0.5rem
+ }
+
+ .sales-container {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .bar-cont {
+    display: flex;
+    margin: 1rem auto 0 auto;
+    /* border: 1px solid green; */
+    width: 95%;
+    height: 20rem;
+ }
+
+ .number {
+    font-size: 0.8rem;
+    color: gray;
+ }
+
+ .number > h5 {
+    margin: 1.34rem 0;
+    text-align: center;
+}
+   
+
+ .months {
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 14rem;
+    display: inline-flex;
+    justify-content: space-between;
+    margin:  1rem 0 0 1rem;
+ }
+
+ .months > div {
+    /* border: 1px solid red; */
+    width: 1.4rem;
+    /* height: 4rem; */
+   /* border-radius: 20px, 20px, 0px, 0px; */
+    border-top-right-radius: 1.5rem;
+    border-top-left-radius: 1.5rem;
+    margin-top: auto;
+
+ }
+
+
+.jan {
+    height: 4rem;
+    background: rgba(52, 202, 165, 0.1);
+}
+
+.jan > span {
+    margin-top: 4.5rem;
+    color: gray;
+    position: absolute;
+    font-size: 0.7rem;
+}
+  
+.feb {
+     height: 7.5rem;
+   background: rgba(52, 202, 165, 0.1);
+}
+
+.feb > span {
+    margin-top: 8rem;
+    color: gray;
+    position: absolute;
+    font-size: 0.7rem;
+}
+     
+.mar {
+   height: 40px;
+   background: rgba(52, 202, 165, 0.1);
+}
+
+.mar > span {
+    margin-top: 3rem;
+    color: gray;
+    position: absolute;
+    font-size: 0.7rem;
+}
+  
+.apr {
+   height: 161px;
+   background: rgba(52, 202, 165, 0.1);
+}
+
+.apr > span {
+    margin-top: 10.6rem;
+    color: gray;
+    position: absolute;
+    font-size: 0.7rem;
+}
+     
+.may {
+   height: 81px;
+   background: rgba(52, 202, 165, 0.1);
+}
+
+.may > span {
+    margin-top: 5.6rem;
+    color: gray;
+    position: absolute;
+    font-size: 0.7rem;
+}
+  
+.jun {
+   height: 216px;
+   background: linear-gradient(180deg, #34CAA5 0%, rgba(52, 202, 165, 0) 100%);
+}
+
+.jun > span {
+    margin-top: 14rem;
+    color: gray;
+    position: absolute;
+    font-size: 0.7rem;
+   }
+  
+.july {
+   height: 81px;
+   background: rgba(52, 202, 165, 0.1);
+}
+
+.july > span {
+    margin-top: 5.6rem;
+    color: gray;
+    position: absolute;
+    font-size: 0.7rem;
+}
+  
+.aug {
+    height: 131px;
+    background: rgba(52, 202, 165, 0.1);
+}
+
+.aug > span {
+    margin-top: 8.8rem;
+    color: gray;
+    position: absolute;
+    font-size: 0.7rem;
+}
+
+.sep {
+   height: 182px;
+   background: rgba(52, 202, 165, 0.1);
+}
+
+.sep > span {
+    margin-top: 11.95rem;
+    color: gray;
+    position: absolute;
+    font-size: 0.7rem;
+}
+  
+.oct {
+   height: 51px;
+   background: rgba(52, 202, 165, 0.1);
+}
+.oct > span {
+    margin-top: 3.8rem;
+    color: gray;
+    position: absolute;
+    font-size: 0.7rem;
+}
+  
+.nov {
+   height: 171px;
+   background: rgba(52, 202, 165, 0.1);
+}
+
+.nov > span {
+    margin-top: 11.3rem;
+    color: gray;
+    position: absolute;
+    font-size: 0.7rem;
+}
+  
+.dec {
+   height: 151px;
+   background: rgba(52, 202, 165, 0.1);
+}
+
+.dec > span {
+    margin-top: 10rem;
+    color: gray;
+    position: absolute;
+    font-size: 0.7rem;
+   }
+
+
+
+.lastorder-head, .first-user {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    width: 96%;
+    margin: 0 auto;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.first-user {
+    height: 3rem;
+   }
+
+.client-info > img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.date {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    
+   }
+
+   .user-container {
+    margin-top: 1.3rem
+   }
+
+   .client-info {
+    display: flex;
+   }
